@@ -18,12 +18,12 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/codeswithscissors/syno-cli/pkg/client"
 	"github.com/go-acme/lego/v4/certificate"
 	"github.com/go-acme/lego/v4/challenge/dns01"
 	"github.com/go-acme/lego/v4/lego"
 	"github.com/go-acme/lego/v4/providers/dns"
 	"github.com/go-acme/lego/v4/registration"
-	"github.com/reddec/syno-cli/pkg/client"
 )
 
 //nolint:staticcheck

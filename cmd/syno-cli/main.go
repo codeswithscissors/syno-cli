@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/codeswithscissors/syno-cli/cmd/syno-cli/commands"
 	"github.com/jessevdk/go-flags"
-	"github.com/reddec/syno-cli/cmd/syno-cli/commands"
 )
 
 //nolint:gochecknoglobals

@@ -10,7 +10,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/reddec/syno-cli/pkg/client"
+	"github.com/codeswithscissors/syno-cli/pkg/client"
 )
 
 //nolint:staticcheck

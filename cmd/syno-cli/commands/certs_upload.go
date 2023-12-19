@@ -9,7 +9,7 @@ import (
 	"os/signal"
 	"text/tabwriter"
 
-	"github.com/reddec/syno-cli/pkg/client"
+	"github.com/codeswithscissors/syno-cli/pkg/client"
 )
 
 //nolint:staticcheck

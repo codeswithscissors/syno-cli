@@ -163,10 +163,6 @@ func (cl *Client) Login(ctx context.Context) error {
 }
 
 // DownloadStation API
-func (cl *Client) DownloadStation() *DownloadStation {
-	return &DownloadStation{cl: cl}
-}
-
 func (cl *Client) callAPI(ctx context.Context, apiName, method string, params map[string]interface{}, out interface{}) error {
 	info, err := cl.APIVersion(ctx, apiName)
 	if err != nil {
