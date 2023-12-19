@@ -1,6 +1,6 @@
 module github.com/codeswithscissors/syno-cli
 
-go 1.20
+go 1.21.5
 
 require (
 	github.com/go-acme/lego/v4 v4.14.2
